@@ -7,5 +7,6 @@
   "title": "DisnOff",
   "icon": "disnoff.png",
   "largeIcon": "disnoffLarge.png",
-  "iconColor": "#040714"
+  "iconColor": "#040714",
+  "requiredACG": []
 }
