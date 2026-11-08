@@ -1,0 +1,10 @@
+# Disney+ ad-decision, pause-ad image & measurement hosts.
+# Only ad/telemetry hosts: never add BAMGrid video playback or CDN hosts here.
+0.0.0.0 prod-frida-origin.bamgrid.com
+0.0.0.0 us-east-2.ads.digital.disneyadvertising.com
+0.0.0.0 ads.digital.disneyadvertising.com
+0.0.0.0 beacons.digital.disneyadvertising.com
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 pubads.g.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 adservice.google.com

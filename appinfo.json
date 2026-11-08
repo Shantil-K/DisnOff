@@ -1,0 +1,11 @@
+{
+  "id": "com.disnoff.patcher",
+  "version": "0.1.0",
+  "vendor": "disnoff",
+  "type": "web",
+  "main": "index.html",
+  "title": "DisnOff",
+  "icon": "disnoff.png",
+  "largeIcon": "disnoffLarge.png",
+  "iconColor": "#040714"
+}
