@@ -71,6 +71,9 @@ require_root() {
 
 require_target() {
   [ -n "$TARGET_DIR" ] || die "Disney+ app not installed (looked for $CANDIDATE_APP_IDS in cryptofs and system)"
+  # User scripts are only loaded by WebAppManager, i.e. for "type":"web" apps.
+  grep -q '"type"[[:space:]]*:[[:space:]]*"web"' "$TARGET_DIR/appinfo.json" 2>/dev/null ||
+    die "$TARGET_APP_ID is not a web app, user script would not load"
 }
 
 toast() {

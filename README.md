@@ -3,6 +3,8 @@
 > Patch-based ad-block layer for the stock Disney+ app on rooted LG webOS TVs.
 > A sister project of [HotsOff](https://github.com/Shantil-K/HotsOff) and [AmazOff](https://github.com/azoffshowy/AmazOff).
 
+![Screenshot](./Screenshot.png?raw=true)
+
 ## Overview
 
 **DisnOff** is an IPK application for **rooted LG webOS TVs**. It patches the installed Disney+ app (`com.disney.disneyplus-prod`):
@@ -35,6 +37,8 @@ See [development/NOTES.md](development/NOTES.md) for full technical details.
 - Rooted LG webOS TV (e.g. via [webosbrew / rootmy.tv](https://www.webosbrew.org/))
 - [Homebrew Channel](https://www.webosbrew.org/)
 - Stock Disney+ app installed from the LG Content Store (`com.disney.disneyplus-prod`)
+
+> **Status:** not yet tested on a TV. Reports from webOS 22+ owners are welcome.
 
 ---
 

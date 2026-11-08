@@ -38,8 +38,9 @@
   window.__DISNOFF__ = { version: VERSION, config: CONFIG, stats: stats };
 
   // Only run inside Disney+ / BAMGrid domains
+  // (file: covers the app's own packaged pages, which have no hostname)
   var host = location.hostname || '';
-  if (!/(^|\.)(disneyplus|bamgrid|dssott)\.com$/i.test(host)) return;
+  if (location.protocol !== 'file:' && !/(^|\.)(disneyplus|bamgrid|dssott)\.com$/i.test(host)) return;
 
   function log(msg) {
     try { console.log('[DisnOff] ' + msg); } catch (e) {}
